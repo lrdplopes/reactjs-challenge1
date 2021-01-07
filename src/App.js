@@ -19,7 +19,8 @@ function App() {
       techs: ["Node.js", "React.js"],
     });
 
-    setProjRepository([...projRepository, res.data]);
+    const projData = res.data;
+    setProjRepository([...projRepository, projData]);
   }
 
   async function handleRemoveRepository(id) {
