@@ -14,7 +14,7 @@ function App() {
 
   async function handleAddRepository() {
     const res = await api.post("/repositories", {
-      title: "Umbriel",
+      title: "Rocketseat - Challenge React.js",
       url: "https://github.com/lrdplopes/reactjs-challenge1",
       techs: ["Node.js", "React.js"],
     });
